@@ -41,10 +41,14 @@ C é uma linguagem compilada, ja o Java é compilada e interpretada ao mesmo tem
 
 ### 8 - O que é a classe InputReader e qual é a sua função no programa?
 
-Transforma bytes em caracteres
+Ler o input do usuario
 
 ### 9 - Qual é a finalidade do método readDouble na classe InputReader?
 
-Ele retorna o valor como um double
+Transformar o valor em um double
 
 ### 10 - O que é a interface PaymentType e como ela é utilizada no programa?
+
+boa pergunta
+
+### 11 -
