@@ -101,3 +101,11 @@ Usando encapsulamento e adicionando comentarios explicando o que cada coisa esta
 Fazer tudo funcionar, ja que inicia a execucao do programa
 
 ### 23 - O que é um construtor padrão e quando ele é utilizado?
+
+### 24 - Como é possível proteger o programa contra erros de entrada do usuário?
+
+### 25 - Qual é a importância de utilizar nomes descritivos para as classes, métodos e variáveis?
+
+### 26 - O que é herança e como ela pode ser aplicada no programa?
+
+### 27 - Como é possível utilizar a sobrecarga de métodos no programa?
