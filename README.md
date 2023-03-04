@@ -51,4 +51,40 @@ Transformar o valor em um double
 
 boa pergunta
 
-### 11 -
+### 11 - Como a classe PaymentTypeSelector é responsável por selecionar o tipo de pagamento a ser utilizado?
+
+Usando um switch case
+
+### 12 - Qual é a relação entre a classe PaymentTypeSelector e as classes PixPayment, CreditPayment e BoletoPayment?
+
+As classes PixPayment, CreditPayment e BoletoPayment utilizam a classe PaymentTypeSelector dentro dela
+
+### 13 - O que é polimorfismo e como ele é utilizado no programa?
+
+O uso de um elemento de varias formas diferentes, um exemplo no programa seria o PaymentTypeSelector
+
+### 14 - Qual é a finalidade do método getName na interface PaymentType e nas classes que a implementam?
+
+Retornar um nome
+
+### 15 - O que é a classe Scanner e como ela é utilizada no programa?
+
+Uma classe que le um input do usuario, é usada para ler o input do usuario
+
+### 16 - O que é uma exceção e como ela é tratada no método selectPaymentType da classe PaymentTypeSelector?
+
+Execao e algo fora do comum, ele é usada para ler um input do usuario
+
+### 17 - Como seria possível adicionar um novo tipo de pagamento ao programa?
+
+Criando uma classe nova para esse novo tipo de pagamento, o modelo dela seguiria o modelo das classes do Pix, Credito e Boleto
+
+### 18 - Qual é a importância de utilizar interfaces no desenvolvimento de sistemas orientados a objetos?
+
+Importante pois pode ser implementada de forma "anonima" em diversas classes
+
+### 19 - Qual é a diferença entre uma classe abstrata e uma interface?
+
+A principal diferenca é uma classe abstrata pode conter metodos abstratos e nao abstratos, enquanto a interface pode conter apenas metodos abstrator
+
+### 20 - O que é encapsulamento e como ele é aplicado no programa?
