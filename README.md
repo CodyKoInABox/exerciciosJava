@@ -88,3 +88,16 @@ Importante pois pode ser implementada de forma "anonima" em diversas classes
 A principal diferenca é uma classe abstrata pode conter metodos abstratos e nao abstratos, enquanto a interface pode conter apenas metodos abstrator
 
 ### 20 - O que é encapsulamento e como ele é aplicado no programa?
+
+É separar o programa em partes, foi aplicado no programa divindo as coisas em varios metodos e classes, cada uma cuidando de uma parte do programa
+
+
+### 21 - Como seria possível melhorar a legibilidade do programa?
+
+Usando encapsulamento e adicionando comentarios explicando o que cada coisa esta fazendo
+
+### 22 - Qual é a finalidade da classe Main no programa?
+
+Fazer tudo funcionar, ja que inicia a execucao do programa
+
+### 23 - O que é um construtor padrão e quando ele é utilizado?
