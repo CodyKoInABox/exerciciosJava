@@ -105,6 +105,7 @@ Fazer tudo funcionar, ja que inicia a execucao do programa
 ### 24 - Como é possível proteger o programa contra erros de entrada do usuário?
 
 ### 25 - Qual é a importância de utilizar nomes descritivos para as classes, métodos e variáveis?
+Organizacao e facilidade de outras pessoas entenderem o codigo
 
 ### 26 - O que é herança e como ela pode ser aplicada no programa?
 
