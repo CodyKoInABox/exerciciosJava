@@ -1,6 +1,6 @@
 package prova1;
 
-public class AlunoEncapsulamento extends Pessoa{
+public class AlunoEncapsulamento extends PessoaEncapsulamento{
     private int matricula;
 
     public int getMatricula() {
