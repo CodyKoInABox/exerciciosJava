@@ -102,11 +102,21 @@ Fazer tudo funcionar, ja que inicia a execucao do programa
 
 ### 23 - O que é um construtor padrão e quando ele é utilizado?
 
+é um metodo que nos permite criar um objeto a partir de uma classe e adicionar um valor a suas variaveis ao mesmo tempo
+exemplo: Pessoa pessoa = new Pessoa(Pedro, 35) onde pedro é o nome e 35 é a idade
+
 ### 24 - Como é possível proteger o programa contra erros de entrada do usuário?
 
+criando variaveis privadas com a keyword "private" e utilizando metodos getters e setters publicos. Dessa forma, podemos criar testes dentro dos metodos setters para garantir que a variavel receba apenas valores corretos.
+
 ### 25 - Qual é a importância de utilizar nomes descritivos para as classes, métodos e variáveis?
+
 Organizacao e facilidade de outras pessoas entenderem o codigo
 
 ### 26 - O que é herança e como ela pode ser aplicada no programa?
+
+é o que permite que uma classe herde da outra, pode ser aplicada quando varias classes sao muito parecidas, podemos criar uma classe principal e depois varias outras classes que herdam os dados dessa principal.
+
+exemplo: classe Planeta é a principal, com variaveis gravidade e tempo de orbita. Podemos criar uma classe chamada Terra, que herda da classe Planeta. Dessa forma, Terra tera gravidade e tempo de orbita automaticamente, podemos entao adicionar a variavel populacao a Terra, ja que este é o unico planeta que utilizara esta variavel.
 
 ### 27 - Como é possível utilizar a sobrecarga de métodos no programa?
