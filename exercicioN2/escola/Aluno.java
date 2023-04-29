@@ -1,5 +1,8 @@
 package exercicioN2.escola;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Aluno extends Pessoa{
     
     private String matricula;
