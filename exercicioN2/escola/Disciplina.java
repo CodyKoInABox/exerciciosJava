@@ -1,4 +1,4 @@
-package n2;
+package exercicioN2.escola;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,10 +15,10 @@ public class Disciplina {
 
     private Professor professor;
 
-    private ArrayList<Matriculado> matriculados;
+    private List<Matriculado> listaDeMatriculados;
 
-    public void addMatriculado(Matriculado matriculado){
-        this.matriculados.add(matriculado)
+    public void adicionarMatriculado(Matriculado matriculado){
+        listaDeMatriculados.add(matriculado)
     }
 
     public Disciplina() {
@@ -30,7 +30,7 @@ public class Disciplina {
         this.cargaHoraria = cargaHoraria;
         this.ementa = ementa;
         this.professor = professor;
-        this.matriculados = new ArrayList<>();
+        this.listaDeMatriculados = new ArrayList<Matriculado>();
     }
 
     public String getCodigo() {
@@ -73,12 +73,12 @@ public class Disciplina {
         this.professor = professor;
     }
 
-    public List<Matriculado> getMatriculados() {
-        return this.matriculados;
+    public List<Matriculado> getListaDeMatriculados() {
+        return this.listaDeMatriculados;
     }
 
-    public void setMatriculados(List<Matriculado> matriculados) {
-        this.matriculados = matriculados;
+    public void setListaDeMatriculados(List<Matriculado> listaDeMatriculados) {
+        this.listaDeMatriculados = listaDeMatriculados;
     }
 
 }

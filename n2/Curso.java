@@ -1,16 +1,19 @@
 package n2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Curso {
     
     private String nome;
 
     private int duracao;
 
-    private List<Disciplina> disciplinas = new ArrayList<>();
+    private ArrayList<Disciplina> disciplinas;
 
 
     public void addDisciplina(Disciplina disciplina){
-        this.disciplinas.add(disciplina)
+        this.disciplinas.add(disciplina);
     }
 
     public void matricularAlunoEmDisciplina(Matriculado aluno, String nomeDisciplina){
@@ -21,14 +24,21 @@ public class Curso {
         }
     }
 
+    public List<Matriculado> obterAlunosMatriculadosNoCurso(){
+        List<Matriculado> alunosDoCurso = new ArrayList<>();
+        for(Disciplina disciplina : disciplinas){
+            alunosDoCurso.addAll(disciplina.getMatriculados());
+        }
+        return alunosDoCurso;
+    }
 
     public Curso() {
     }
 
-    public Curso(String nome, int duracao, List<Disciplina> disciplinas) {
+    public Curso(String nome, int duracao) {
         this.nome = nome;
         this.duracao = duracao;
-        this.disciplinas = disciplinas;
+        this.disciplinas = new ArrayList<>();
     }
 
     public String getNome() {
